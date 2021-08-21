@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Santa Teresita Website</title>
+	<!--Archivo css-->
+	<link rel="stylesheet" href="../Css/Style.css">
+	<!--Icono del head-->
+	<link rel="shortcut icon" href="../Images/sta_teresita2.png">
+	<!--Google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<!--Awesome font-->
+	<script src="https://kit.fontawesome.com/a1de66cfd5.js" crossorigin="anonymous"></script>
+<body>
+
+	<div class="headerFlex">
+		<header>
+		<!-- Aqui va la nav -->
+			<a class="imgHeader" href="../Index.html"><img src="../Images/sta_teresita2.png" alt="icon" ></a>
+			<nav class="nav_1">
+				<ul class="menuPrincipal">
+					<li class="item">
+						<a href="../Index.html">Inicio</a>
+					</li>
+					<li class="item">
+						<a href="Oracion.html">Oracion</a>
+					</li>
+					<li class="item"><a href="">Quienes Somos</a>
+						
+					</li>
+					<li class="item">
+						<a href="manualConvivencia.html">Manual de convivencia</a>
+					</li>
+					<li class="item">
+						<a href="Galeria.html">Galeria</a>
+					</li>
+					<li class="item">
+						<a href="Contacto.html">Contacto</a>
+					</li>
+				</ul>
+
+			</nav>
+			<nav class="nav_2">
+				<ul>
+					<li class="redes"><a href="https://www.facebook.com/InstitucionEducativaSantaTeresitaCaucasia/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="redes"><a href=""><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<!-- Aqui esta la parte del section -->
+	<section>
+		<!--Formulario de contacto-->
+
+		<form action="" >
+
+
+			<p class="txt_0">Formulario</p>
+			<hr>
+			<!--Nombre-->
+			<Label for="Nombre">
+				<p class="txt_3">Nombre: </p>
+				<input class="txt_4" type="text" name="Nombre" placeholder="Ingrese su nombre" >
+
+			</Label>
+			<br>
+			<!--Email-->
+
+			<label for="Email">
+				<p class="txt_3">Email: </p>
+				<input class="txt_4" type="text" name="Email" placeholder="Ingrese su Email">
+
+			</label><br>
+
+			<label for="Edad">
+				<p class="txt_3">Edad: </p>
+				<input class="txt_4" type="number" name="Edad" placeholder="Escribe tu edad" min="0">
+
+			</label><br>
+
+			<!--Menu desplegable de estado civil-->
+
+			<label for="Estado civil">
+				<p class="txt_3">Estado Civil: </p>
+				<select class="txt_4" name="Estado civil">
+					<option class="txt_5" value="Casado">Casado/a</option>
+					<option class="txt_5" value="Soltero">Soltero/a</option>
+					<option class="txt_5" value="Viudo">Viudo/a</option>
+				</select>
+				
+			</label><br>
+
+			<!--Checkbox sexo-->
+
+			<label class="options" for="Sexo">
+				<p class="txt_3">Sexo:</p> 
+				<input  type="radio" name="Sexo">Hombre
+				<input  type="radio" name="Sexo">Mujer
+				<input type="radio" name="Sexo">Otro
+			</label>
+
+			<!--cuadro de comentario-->
+
+			<div>
+				<p class="txt_3">Comentario: </p>
+
+				<textarea class="txt_4" cols="60" rows="10" placeholder="Escribe un Comentario"></textarea>
+			</div><br>
+
+			<!--Checkbox terminos y condiciones-->
+
+			<label class="options" for="Sn">
+				<p class="txt_3">Acepto terminos y condiciones: </p>
+				<input class="txt_4" type="radio" name="Sn">Si
+				<input class="txt_4" type="radio" name="Sn">No
+				
+			</labe><br>
+			<br>
+			<input class="txt_4" type="submit" value="Enviar">
+			<input class="txt_4" type="reset" name="Resetear">	
+
+		</form>
+
+	</section>
+	<hr>
+
+	<footer class="footer">
+		<!-- La parte del footer, Contacto, direccion y sobre nosotros-->
+		<div>
+			<P>SOBRE NOSOTROS</P>
+			<br>
+			<br>
+			<P>Somos una Institución Educativa oficial, que presta el servicio desde transición hasta el grado undécimo, consta de tres secciones, dos con pre-escolar y primaria y una de bachillerato</P>
+		</div>
+		<div>
+			<p>Contacto: +57 123 456 9999</p>
+			<p>Direccion: Calle 19#06-08 Barrio Loma Fresca</p>
+			<p>Horario: Lunes — Viernes 8am a 12m y 2pm a 4pm</p>
+		</div>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3951.118839597614!2d-75.19407770917651!3d7.986661972888589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa18f93c1d25d2fc8!2sInstitucion%20Educativa%20Santa%20Teresita!5e0!3m2!1ses-419!2sco!4v1624316967778!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+		</div>
+
+	</footer>
+
+</body>
+</html>
